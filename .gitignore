@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and media
+.ipynb_checkpoints
+.pytest_cache/
+.vscode/
+.streamlit/
+venv/
+.venv/
+env/
+
+# Temporary generated images (since they are generated dynamically by scripts)
+chart*.png
+
+# Word lock files
+~$*.docx
