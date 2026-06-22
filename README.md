@@ -15,7 +15,6 @@ Dự án trực quan hóa dữ liệu khảo sát ý kiến người lao động
     *   *Complexity Violin*: Ảnh hưởng của độ phức tạp/chuyên môn sâu đến mong muốn TĐH.
     *   *ROI Prioritization*: Định giá quỹ lương bị ảnh hưởng để xếp thứ tự đầu tư (Bubble).
 3.  **Web Dashboard tương tác (Streamlit)**: Giao diện hiện đại, phông chữ chuẩn Việt hóa, tích hợp bộ lọc Occupation động để cập nhật toàn bộ biểu đồ tức thì.
-4.  **Trình xuất báo cáo Microsoft Word (.docx) tự động**: Tự động biên dịch mã nguồn, vẽ ảnh tĩnh biểu đồ và biên tập báo cáo nghiên cứu học thuật phông chữ Times New Roman cỡ 13 chuẩn Việt Nam.
 
 ---
 
@@ -24,7 +23,6 @@ Dự án trực quan hóa dữ liệu khảo sát ý kiến người lao động
 *   `preprocess.py`: Làm sạch, gộp dữ liệu và xuất các file sạch `cs_tasks_cleaned.csv`, `cs_workers_cleaned.csv`.
 *   `visualize.py`: Script vẽ 7 biểu đồ tương tác Plotly và lưu thành các file HTML độc lập.
 *   `app.py`: Giao diện ứng dụng Web Dashboard (Streamlit).
-*   `generate_report.py`: Trình biên soạn báo cáo Word (.docx) tự động (nhúng code và chèn ảnh tĩnh biểu đồ).
 *   `report.md`: Báo cáo nháp bằng định dạng Markdown.
 *   `requirements.txt`: Danh sách các thư viện Python phụ thuộc.
 *   `.gitignore`: Tệp cấu hình loại trừ các file cache và file tạm thời khi tải lên GitHub.
@@ -53,11 +51,6 @@ pip install -r requirements.txt
     ```bash
     streamlit run app.py
     ```
-3.  **Tự động xuất báo cáo Microsoft Word (.docx)**:
-    ```bash
-    python generate_report.py
-    ```
-    *(Báo cáo hoàn chỉnh sẽ được lưu dưới tên `Bao_cao_AI_Agent_CS.docx` tại thư mục gốc).*
 
 ---
 
