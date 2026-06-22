@@ -62,5 +62,5 @@ pip install -r requirements.txt
 ---
 
 ## 🎓 Thành viên thực hiện
-*   Họ và tên: [Tên của bạn]
+*   Họ và tên: VÕ THỊ THU THẢO
 *   Môn học: Trực quan hóa dữ liệu

@@ -120,6 +120,7 @@ else:
 # Thông tin tác giả sidebar
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 🎓 Thông tin dự án")
+st.sidebar.markdown("**Sinh viên**: VÕ THỊ THU THẢO")
 st.sidebar.markdown("**Môn học**: Trực quan hóa dữ liệu")
 st.sidebar.markdown("**Chủ đề**: Phân tích ứng dụng AI Agent trong Khoa học máy tính")
 st.sidebar.markdown("**Công cụ**: Python, Streamlit, Plotly")

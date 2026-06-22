@@ -15,5 +15,5 @@ env/
 # Temporary generated images (since they are generated dynamically by scripts)
 chart*.png
 
-# Word lock files
-~$*.docx
+# Word documents (Do not upload reports to GitHub)
+*.docx
